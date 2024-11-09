@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "regression":"npx playwright test",
-    "WebTesting":"npx playwright test --grep=@web",
-    "APITesting":"npx playwright test --grep=@API"
+    "regression": "npx playwright test --reporter=line,allure-playwright",
+    "WebTesting": "npx playwright test --grep=@web --reporter=line,allure-playwright",
+    "APITesting": "npx playwright test --grep=@API --reporter=line,allure-playwright"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.47.0",
-    "@types/node": "^22.5.4"
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.5.4",
+    "allure-playwright": "^3.0.6"
   }
 }

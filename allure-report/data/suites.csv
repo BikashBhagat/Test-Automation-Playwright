@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9099","@web Test RahulShettyecommerce website","","Fri Nov 08 11:59:34 IST 2024","failed","Fri Nov 08 11:59:44 IST 2024","","exercisePageObjectMethod.spec.js","",""
